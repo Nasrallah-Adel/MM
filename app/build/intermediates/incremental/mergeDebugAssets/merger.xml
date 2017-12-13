@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/media/nasrallah/main1/FCI/android-project/MM/app/src/main/assets"/><source path="/media/nasrallah/main1/FCI/android-project/MM/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/media/nasrallah/main1/FCI/android-project/MM/app/src/debug/assets"/></dataSet></merger>

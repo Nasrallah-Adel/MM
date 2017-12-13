@@ -1,0 +1,4 @@
+#Wed Dec 13 23:42:02 EET 2017
+base.0=/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/transforms/dexMerger/debug/21
+path.0=classes.dex
+renamed.0=classes.dex

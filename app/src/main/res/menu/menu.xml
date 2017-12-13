@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mid"
+        android:title="Shannon Fano"
+       />
+    <item
+        android:id="@+id/mid2"
+        android:title="HUFFMAN"
+        />
+    <item
+        android:id="@+id/mid3"
+        android:title="Run-length encoding"
+        />
+
+</menu>
