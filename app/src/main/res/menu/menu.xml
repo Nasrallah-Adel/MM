@@ -2,15 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/mid"
-        android:title="Shannon Fano"
-       />
+        android:title="Shannon Fano" />
     <item
         android:id="@+id/mid2"
-        android:title="HUFFMAN"
-        />
+        android:title="HUFFMAN" />
     <item
         android:id="@+id/mid3"
-        android:title="Run-length encoding"
-        />
+        android:title="Run-length encoding" />
+    <item
+        android:id="@+id/mid4"
+        android:title="LZW" />
 
 </menu>

@@ -7,22 +7,22 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.0.1"
-    timestamp="1513204742637"
+    timestamp="1513207208877"
     token="-9055552778580029415"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="574" />
+        duration="1436" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="28" />
+        duration="106" />
     <task
         name="verifier"
-        duration="7" />
+        duration="41" />
 
     <artifact
         location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -72,17 +72,25 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1513204527268"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1513206567391"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1513206699671"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -91,11 +99,16 @@
             location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
             location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
+        <artifact
+            location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1513206939005"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/media/nasrallah/main1/FCI/android-project/MM/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
@@ -103,7 +116,7 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1513204742637"
+        timestamp="1513207208877"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/media/nasrallah/main1/FCI/android-project/MM/app/build/intermediates/split-apk/debug/slices/slice_9.apk"

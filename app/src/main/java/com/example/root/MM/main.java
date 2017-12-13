@@ -13,11 +13,12 @@ import android.widget.Toast;
 
 import com.example.root.MM.R;
 
-public class main extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
+public class main extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     DrawerLayout dl;
 
     ActionBarDrawerToggle ad;
     NavigationView nav;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +27,7 @@ public class main extends AppCompatActivity implements NavigationView.OnNavigati
         nav = (NavigationView) findViewById(R.id.nav);
         nav.setNavigationItemSelectedListener(this);
         nav.setItemIconTintList(null);
-        ad=new ActionBarDrawerToggle(
+        ad = new ActionBarDrawerToggle(
                 this,
                 dl,
 
@@ -49,12 +50,12 @@ public class main extends AppCompatActivity implements NavigationView.OnNavigati
 
         dl.addDrawerListener(ad);
         ad.syncState();
-     getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (ad.onOptionsItemSelected(item)){
+        if (ad.onOptionsItemSelected(item)) {
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -66,11 +67,17 @@ public class main extends AppCompatActivity implements NavigationView.OnNavigati
         if (id == R.id.mid) {
             Intent i = new Intent(main.this, Shannon.class);
             startActivity(i);
-        } if (id == R.id.mid2) {
+        }
+        if (id == R.id.mid2) {
             Intent i = new Intent(main.this, huffman_activity.class);
             startActivity(i);
-        }if (id == R.id.mid3) {
+        }
+        if (id == R.id.mid3) {
             Intent i = new Intent(main.this, run_len.class);
+            startActivity(i);
+        }
+        if (id == R.id.mid4) {
+            Intent i = new Intent(main.this, lzw_Ac.class);
             startActivity(i);
         }
         return false;

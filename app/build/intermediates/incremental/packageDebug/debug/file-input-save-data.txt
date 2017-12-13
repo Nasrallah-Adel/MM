@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Dec 14 00:35:43 EET 2017
+#Thu Dec 14 01:15:51 EET 2017
 4.path=lib/armeabi/libpl_droidsonroids_gif.so
 8.set=DEX
 6.path=classes.dex

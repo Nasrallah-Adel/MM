@@ -30,6 +30,7 @@
         <activity android:name="com.example.root.MM.Shannon" />
         <activity android:name="com.example.root.MM.huffman_activity" />
         <activity android:name="com.example.root.MM.run_len" />
+        <activity android:name="com.example.root.MM.lzw_Ac" />
 
         <meta-data
             android:name="android.support.VERSION"
